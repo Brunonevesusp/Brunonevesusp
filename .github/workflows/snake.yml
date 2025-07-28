@@ -17,9 +17,9 @@ jobs:
         with:
           github_user_name: brunonevesusp
 
-          # Adicione as linhas abaixo para definir as cores
-          color_snake: green
-          color_dots: red
+           # Cores personalizadas
+          color_snake: "#00ffcc"
+          color_dots: "#6366f1,#9333ea,#6b7280,#22c55e,#84cc16"
 
           outputs: |
             dist/github-contribution-grid-snake.svg
